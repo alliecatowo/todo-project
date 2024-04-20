@@ -1,0 +1,6 @@
+services:
+  todo-app:
+    image: ghcr.io/alliecatowo/todo-app:latest
+    ports:
+      - 3000:3000
+      - 5252:5252
