@@ -8,27 +8,18 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-- Node.js
-- MongoDB
-- npm
+- Docker
 
 ### Installation
 
 1. Clone the repository:
-   `git clone https://github.com/yourusername/your-repo-name.git`
-2. Copy the development env to your main env:
-    `cp .env.development .env`
-3. Install NPM packages:
-   `cd your-repo-name npm install`
-4. Start the server:
-    `npm start`
-5. Start the frontend:
-    `cd frontend npm start`
-6. Install MongoDB and start the server:
-    `mongod`
-    1. If you are using Windows, you may need to run `mongod` as an administrator.
-    2. If you are using macOS, you may need to install mongo via brew and run `brew services start mongodb-community@4.4`.
-7. Open your browser and visit `http://localhost:3000`.
+    `git clone https://github.com/yourusername/your-repo-name.git`
+2. Build the Docker image:
+    `docker build -t todo-app .`
+3. Run the Docker container:
+    `docker run -p 3000:3000 -p 5252:5252 --name todo-app -d todo-app`
+
+The application should now be running at `http://localhost:3000`.
 
 ## Usage
 
