@@ -4,7 +4,8 @@
   "description": "A simple MERN todo application!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "Allison Coleman",
@@ -13,5 +14,13 @@
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "mongoose": "^8.3.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alliecatowo/todo-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alliecatowo/todo-project/issues"
+  },
+  "homepage": "https://github.com/alliecatowo/todo-project#readme"
 }
