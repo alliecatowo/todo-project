@@ -9,15 +9,16 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 - Docker
+- Docker Compose
 
 ### Installation
 
 1. Clone the repository:
-    `git clone https://github.com/yourusername/your-repo-name.git`
-2. Build the Docker image:
-    `docker build -t todo-app .`
-3. Run the Docker container:
-    `docker run -p 3000:3000 -p 5252:5252 --name todo-app -d todo-app`
+    `git clone https://github.com/alliecatowo/todo-project.git`
+2. Run the Docker container:
+    `docker-compose up`
+
+The application should now be running at `http://localhost:3000`.
 
 The application should now be running at `http://localhost:3000`.
 
