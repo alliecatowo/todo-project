@@ -43,6 +43,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - your@email.com
+Allison Coleman - allisonemilycoleman@gmail.com
 
-Project Link: [https://github.com/yourusername/your-repo-name](https://github.com/yourusername/your-repo-name)
+Project Link: [https://github.com/alliecatowo/todo-project](https://github.com/alliecatowo/todo-project)
