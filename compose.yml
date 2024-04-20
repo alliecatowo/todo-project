@@ -4,3 +4,7 @@ services:
     ports:
       - 3000:3000
       - 5252:5252
+  mongo:
+    image: mongo:latest
+    ports:
+      - 27017:27017
